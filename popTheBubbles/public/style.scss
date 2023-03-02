@@ -1,0 +1,81 @@
+body{
+  text-align: center;
+  background: url(https://cdn.glitch.com/1da4f4b9-bfa1-4ae7-92a5-985f15614251%2FtileBackground.jpeg?v=1630557347243);
+}
+
+canvas { 
+  background-color: rgb(197, 203, 206);
+  border: 10px solid rgb(207, 207, 207);
+  border-radius: 5px;
+  transform:translate(0%);
+}
+
+img{
+  position: absolute;
+  width: 720px;
+  height: 200px;
+  transform:translate(-50%, -105%);
+  pointer-events: none;
+
+}
+
+#timer{
+  position: absolute;
+  left: 65%;
+  padding: 20px; 
+  font-family: Impact;
+  font-size: 30px;
+  color: rgba(18, 48, 219, 0.616);
+  border: none;
+  height: 5px;  
+  width: 40px;
+  z-index: 1;
+  transform:translate(40%, 10%);
+}
+
+#start{
+  position: absolute;
+  top: 30%; left: 40%;
+  background: url(https://cdn.glitch.com/1da4f4b9-bfa1-4ae7-92a5-985f15614251%2Fstart.png?v=1630557645473);
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+  border: none;
+  height: 200px;  
+  width: 300px;
+  transform:translate(-10%, -20%);
+}
+
+#gameover{
+  position: absolute;
+  top: 30%; left: 40%;
+  padding: 30px 50px;
+  display: none;
+  background: url(https://cdn.glitch.com/1da4f4b9-bfa1-4ae7-92a5-985f15614251%2Fgameover.png?v=1630557325343);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  height: 300px;  
+  width: 300px;
+  border: none;
+  transform:translate(-10%, -20%);
+
+}
+
+button:hover{
+ box-shadow: 0 2px 0px 0 rgba(54, 80, 223, 0.616);
+}
+
+.slider {
+  width: 30%; 
+  height: 25px; 
+  background: #d3d3d3; 
+  outline: none;
+  opacity: 0.7; 
+}
+
+#speed{
+  font-family: Impact;
+  font-size: 30px;
+  color: rgba(18, 48, 219, 0.616);
+  width: 20%;
+  display: inline-block;
+}

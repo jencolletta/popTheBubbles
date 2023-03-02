@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dot Game</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+ 
+<body>
+  <div class="slidecontainer">
+    <div id="speed">Speed: <span id="speedValue">10</div></span>
+    <input type="range" min="1" max="50" value="10" class="slider" id="speedSlider">
+  </div>
+  <div id="timer">0:0:0</div>
+  <canvas id="myCanvas"></canvas>
+  <div class="image">
+    <img src="https://cdn.glitch.com/1da4f4b9-bfa1-4ae7-92a5-985f15614251%2Fbathtub.png?v=1630557307149" alt="" />
+  </div>
+  <button id="start" onclick="startGame()"></button>
+  <button id="gameover" onclick="gameOver()"></button>
+  <script src="/index.js"></script>
+</body>
+
+</html>
